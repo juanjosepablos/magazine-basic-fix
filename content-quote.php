@@ -8,7 +8,7 @@ $class = mb_article_class();
 ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class( $class ); ?>>
 	    <div class="entry-content">
-		    <?php the_content( 'Read more &rarr;' ); ?>
+		    <?php the_content( _e('Read more &rarr;', 'basic-magazine') ); ?>
 	    </div><!-- .entry-content -->
 
 	    <?php get_template_part( 'content', 'footer' ); ?>

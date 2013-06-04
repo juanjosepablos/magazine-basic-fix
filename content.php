@@ -10,7 +10,7 @@ $class = mb_article_class();
 	    <div class="entry-content">
 	    <?php
 	    if ( ( is_singular() || 'content' == mb_theme_options( 'excerpt_content' ) ) && 'main' == $mb_content_area && ! is_archive() && ! is_search() ) {
-		    the_content( 'Read more &rarr;' );
+		    the_content( _e('Read more &rarr;', 'basic-magazine') );
 	    } else {
 	    	$image_name = 'thumbnail';
     		$image_name = ( 'three-col c4' == $class && is_home() ) ? '3_column' : '1_column';

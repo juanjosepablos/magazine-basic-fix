@@ -16,7 +16,7 @@ $class = mb_article_class();
 			if( has_post_thumbnail() && ( ! is_single() || 'sidebar' == $mb_content_area ) )
 				the_post_thumbnail( 'large', array( 'class' => 'alignnone' ) );
 			else
-				the_content( 'Read more &rarr;' );
+				the_content( _e('Read more &rarr;', 'basic-magazine') );
 			?>
 	    </div><!-- .entry-content -->
 
