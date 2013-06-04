@@ -487,7 +487,7 @@ if ( ! function_exists( 'mb_excerpt_more' ) ) :
  * @since 3.0.0
  */
 function mb_excerpt_more( $text ) {
-	return $text . '<p class="more-link-p"><a class="more-link" href="' . get_permalink( get_the_ID() ) . _e('">Read more &rarr;</a></p>', 'basic-magazine');
+        return $text . '<p class="more-link-p"><a class="more-link" href="' . get_permalink( get_the_ID() ) . '">' . __('Read more', 'magazine-basic') . ' &rarr;</a></p>';
 }
 endif; // mb_excerpt_more
 
