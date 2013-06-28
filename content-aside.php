@@ -10,7 +10,7 @@ $class = mb_article_class();
 		<h3 class="post-format">Aside</h3>
 
 	    <div class="entry-content">
-		    <?php the_content( _e('Read more &rarr;', 'basic-magazine') ); ?>
+		    <?php the_content( _e('Read more &rarr;', 'magazine-basic') ); ?>
 	    </div><!-- .entry-content -->
 
 	    <?php get_template_part( 'content', 'footer' ); ?>

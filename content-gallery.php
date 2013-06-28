@@ -14,7 +14,7 @@ $class = mb_article_class();
 	    <div class="entry-content">
 	        <?php
 			if ( is_single() && 'sidebar' != $mb_content_area ) {
-				the_content( _e('Read more &rarr;', 'basic-magazine') );
+				the_content( _e('Read more &rarr;', 'magazine-basic') );
 			} else {
 				global $post;
 				$images = get_children( array(
