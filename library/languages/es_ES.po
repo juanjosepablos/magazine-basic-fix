@@ -1,75 +1,92 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: magazine-basic 3.0.2\n"
+"Project-Id-Version: Magazine Basic v3.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-04 11:40+0200\n"
-"PO-Revision-Date: 2013-06-04 11:51+0100\n"
+"PO-Revision-Date: 2013-07-13 10:25:57+0000\n"
 "Last-Translator: Juan Jose Pablos <juanjo@apertus.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
 #: 404.php:14
+#@ magazine-basic
 msgid "404 Error"
 msgstr "Error 404 - No se encontró la página"
 
 #: 404.php:18
+#@ magazine-basic
 msgid "Sorry. We can't seem to find the page you're looking for."
 msgstr ""
 
 #: archive.php:30
 #, php-format
+#@ magazine-basic
 msgid "Author Archive for %s"
 msgstr "Archivo del autor para %s"
 
 #: archive.php:32
 #, php-format
+#@ magazine-basic
 msgid "Tag Archive for %s"
 msgstr "Archivo de etiquetas para %s"
 
 #: archive.php:34
 #, php-format
+#@ magazine-basic
 msgid "Daily Archives: %s"
 msgstr "Archivo diario: %s"
 
 #: archive.php:36
 #, php-format
+#@ magazine-basic
 msgid "Monthly Archives: %s"
 msgstr "Archivo mesual: %s"
 
 #: archive.php:38
 #, php-format
+#@ magazine-basic
 msgid "Yearly Archives: %s"
 msgstr "Archivo anual: %s"
 
 #: archive.php:40
+#@ magazine-basic
 msgid "Blog Archives"
 msgstr "Archivo del blog"
 
 #: comments.php:40
+#@ magazine-basic
 msgid "Comment navigation"
 msgstr "Navegación de comentarios"
 
 #: comments.php:41
+#@ magazine-basic
 msgid "&larr; Older Comments"
 msgstr "&laquo; Comentarios antiguos"
 
 #: comments.php:42
+#@ magazine-basic
 msgid "Newer Comments &rarr;"
 msgstr "Últimos comentarios &raquo;"
 
 #: comments.php:51
+#@ magazine-basic
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
 #: comments.php:59
+#@ magazine-basic
 msgid "Comment"
 msgstr "Comentario"
 
@@ -78,180 +95,564 @@ msgstr "Comentario"
 #: content-image.php:19
 #: content-link.php:13
 #: content-page.php:13
-#: content.php:13
 #: content-quote.php:11
 #: content-status.php:21
+#: content.php:13
+#@ magazine-basic
+#@ basic-magazine
 msgid "Read more &rarr;"
 msgstr "Leer mas &raquo;"
 
 #: content-footer.php:11
+#@ magazine-basic
 msgid "Pages:"
 msgstr "Páginas:"
 
 #: content-footer.php:13
 #: functions.php:385
 #: functions.php:407
+#@ magazine-basic
 msgid "(edit)"
 msgstr "(Editar)"
 
 #: content-header.php:37
+#@ magazine-basic
 msgid "by"
 msgstr "por"
 
 #: content-header.php:55
+#@ magazine-basic
 msgid "0 Comments"
 msgstr "0 Comentarios"
 
 #: content-header.php:55
+#@ magazine-basic
 msgid "1 Comment"
 msgstr "1 comentario"
 
 #: content-header.php:55
+#@ magazine-basic
 msgid "% Comments"
 msgstr "% comentarios"
 
 #: content-none.php:9
+#@ magazine-basic
 msgid "Nothing found"
 msgstr "Nada encontrado"
 
 #: content-none.php:12
+#@ magazine-basic
 msgid "No results were found. Perhaps searching will help find a related post."
 msgstr ""
 
 #: content-status.php:18
 #, php-format
+#@ magazine-basic
 msgid "Posted on %1$s at %2$s"
 msgstr "Publicado a %1$s en %2$s "
 
 #: functions.php:49
+#@ magazine-basic
 msgid "Primary Menu"
 msgstr "Menú Principal"
 
 #: functions.php:50
+#@ magazine-basic
 msgid "Secondary Menu"
 msgstr "Menú secundario"
 
 #: functions.php:251
+#: library/theme-options.php:176
 #, fuzzy
+#@ magazine-basic
 msgid "First Sidebar"
 msgstr "Menübreite"
 
 #: functions.php:253
+#@ magazine-basic
 msgid "This is the first sidebar area. All defaults widgets work great here."
 msgstr ""
 
 #: functions.php:261
 #, fuzzy
+#@ magazine-basic
 msgid "Second Sidebar"
 msgstr "Menübreite"
 
 #: functions.php:263
+#@ magazine-basic
 msgid "This is the second sidebar area. All defaults widgets work great here. You must select one of the \"2 sidebar\" layout options in order to view this area on the front end."
 msgstr ""
 
 #: functions.php:271
+#@ magazine-basic
 msgid "Header Area"
 msgstr "Area de cabecera"
 
 #: functions.php:273
+#@ magazine-basic
 msgid "Widgetized area in the header to the right of the site name. Great place for a search box or a banner ad."
 msgstr ""
 
 #: functions.php:309
-#, fuzzy, php-format
+#, fuzzy, php-format, php-format, php-format
+#@ magazine-basic
 msgid "Page %1$s of %2$s"
 msgstr "Página"
 
 #: functions.php:344
 #, php-format
+#@ magazine-basic
 msgid "Page %s"
 msgstr "Página %s"
 
 #: functions.php:384
 #, php-format
+#@ magazine-basic
 msgid "%1$s at %2$s"
 msgstr "%1$s a las %2$s"
 
 #: functions.php:389
+#@ magazine-basic
 msgid "Your comment is awaiting moderation."
 msgstr "Tu comentario está pendiente de moderación"
 
 #: functions.php:407
+#@ magazine-basic
 msgid "Pingback:"
 msgstr "Pingback:"
 
 #: functions.php:429
+#@ magazine-basic
 msgid "Name"
 msgstr "Nombre"
 
 #: functions.php:430
+#@ magazine-basic
 msgid "Email"
 msgstr "Correo electrónico"
 
 #: functions.php:431
+#@ magazine-basic
 msgid "Website"
 msgstr "Web"
 
 #: functions.php:452
+#@ magazine-basic
 msgid "Search for:"
 msgstr "Buscar por:"
 
 #: functions.php:453
+#@ magazine-basic
 msgid "Search&hellip;"
 msgstr "Buscar&hellip;"
 
 #: functions.php:490
+#@ magazine-basic
 msgid "Read more"
 msgstr "Leer mas"
 
 #: header.php:63
+#@ magazine-basic
 msgid "Main menu"
 msgstr "Menú principal"
 
 #: header.php:68
+#@ magazine-basic
 msgid "Sub menu"
 msgstr "SubMenú"
 
 #: index.php:84
+#@ magazine-basic
 msgid "No posts to display"
 msgstr "Ninguna publicación para mostrar"
 
 #: index.php:87
 #, php-format
+#@ magazine-basic
 msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
 msgstr ""
 
 #: search.php:17
+#@ magazine-basic
 msgid " search results for"
 msgstr "Resultados de Busqueda para "
 
-#: sidebar.php:20
 #: sidebar-second.php:21
+#: sidebar.php:20
 #, php-format
+#@ magazine-basic
 msgid "Add your own widgets by going to the %sWidgets admin page%s."
 msgstr ""
 
 #: sidebar.php:24
+#@ magazine-basic
 msgid "Meta"
 msgstr "Meta"
 
 #: sidebar-second.php:25
+#@ magazine-basic
 msgid "Archives"
 msgstr "Archivos"
 
 #: single.php:17
+#@ magazine-basic
 msgid "Post navigation"
 msgstr "Menú de Navegación"
 
 #: single.php:18
-#, fuzzy
+#, fuzzy, php-format, php-format
+#@ magazine-basic
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
 msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: single.php:19
-#, fuzzy
+#, fuzzy, php-format, php-format
+#@ magazine-basic
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#~ msgid "\">Read more &rarr;</a></p>"
-#~ msgstr "\">Leer mas &raquo;</a></p>"
+#: archive.php:36
+#@ magazine-basic
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:38
+#@ magazine-basic
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+#@ magazine-basic
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-gallery.php:35
+#, php-format
+#@ magazine-basic
+msgid "This gallery contains <a %1$s>%2$s photo &rarr;</a>"
+msgid_plural "This gallery contains <a %1$s>%2$s photos &rarr;</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-gallery.php:35
+#: content-header.php:23
+#, php-format
+#@ magazine-basic
+msgid "Permalink to %s"
+msgstr ""
+
+#: library/pointers.php:14
+#: library/theme-options.php:463
+#@ magazine-basic
+msgid "Theme Options"
+msgstr ""
+
+#: library/pointers.php:15
+#, php-format
+#@ magazine-basic
+msgid "The greatest thing about %s is all of its amazing theme options. Take total control over the look and feel of your site with a few clicks."
+msgstr ""
+
+#: library/theme-options.php:61
+#@ magazine-basic
+msgid "Display Tagline"
+msgstr ""
+
+#: library/theme-options.php:74
+#@ magazine-basic
+msgid "Site Logo"
+msgstr ""
+
+#: library/theme-options.php:86
+#@ magazine-basic
+msgid "Header Alignment"
+msgstr ""
+
+#: library/theme-options.php:91
+#@ magazine-basic
+msgid "Left"
+msgstr ""
+
+#: library/theme-options.php:92
+#@ magazine-basic
+msgid "Right"
+msgstr ""
+
+#: library/theme-options.php:93
+#@ magazine-basic
+msgid "Center"
+msgstr ""
+
+#: library/theme-options.php:98
+#@ magazine-basic
+msgid "Layout"
+msgstr ""
+
+#: library/theme-options.php:103
+#@ magazine-basic
+msgid "1 Column"
+msgstr ""
+
+#: library/theme-options.php:104
+#@ magazine-basic
+msgid "2 Columns"
+msgstr ""
+
+#: library/theme-options.php:105
+#@ magazine-basic
+msgid "3 Columns"
+msgstr ""
+
+#: library/theme-options.php:106
+#@ magazine-basic
+msgid "4 Columns"
+msgstr ""
+
+#: library/theme-options.php:107
+#@ magazine-basic
+msgid "5 Columns"
+msgstr ""
+
+#: library/theme-options.php:108
+#@ magazine-basic
+msgid "6 Columns"
+msgstr ""
+
+#: library/theme-options.php:109
+#@ magazine-basic
+msgid "7 Columns"
+msgstr ""
+
+#: library/theme-options.php:110
+#@ magazine-basic
+msgid "8 Columns"
+msgstr ""
+
+#: library/theme-options.php:111
+#@ magazine-basic
+msgid "9 Columns"
+msgstr ""
+
+#: library/theme-options.php:112
+#@ magazine-basic
+msgid "10 Columns"
+msgstr ""
+
+#: library/theme-options.php:113
+#@ magazine-basic
+msgid "11 Columns"
+msgstr ""
+
+#: library/theme-options.php:114
+#@ magazine-basic
+msgid "12 Columns"
+msgstr ""
+
+#: library/theme-options.php:124
+#@ magazine-basic
+msgid "Main Content"
+msgstr ""
+
+#: library/theme-options.php:138
+#@ magazine-basic
+msgid "Site Width"
+msgstr ""
+
+#: library/theme-options.php:144
+#@ magazine-basic
+msgid "960px"
+msgstr ""
+
+#: library/theme-options.php:155
+#@ magazine-basic
+msgid "Site Layout"
+msgstr ""
+
+#: library/theme-options.php:160
+#@ magazine-basic
+msgid "1 Sidebar - Left"
+msgstr ""
+
+#: library/theme-options.php:161
+#@ magazine-basic
+msgid "1 sidebar - Right"
+msgstr ""
+
+#: library/theme-options.php:162
+#@ magazine-basic
+msgid "2 sidebars - Left"
+msgstr ""
+
+#: library/theme-options.php:163
+#@ magazine-basic
+msgid "2 sidebars - Right"
+msgstr ""
+
+#: library/theme-options.php:164
+#@ magazine-basic
+msgid "2 sidebars - Separate"
+msgstr ""
+
+#: library/theme-options.php:165
+#@ magazine-basic
+msgid "No Sidebars"
+msgstr ""
+
+#: library/theme-options.php:190
+#@ magazine-basic
+msgid "Display Categories on inner pages"
+msgstr ""
+
+#: library/theme-options.php:203
+#@ magazine-basic
+msgid "Display Author on inner pages"
+msgstr ""
+
+#: library/theme-options.php:216
+#@ magazine-basic
+msgid "Display Date on inner pages"
+msgstr ""
+
+#: library/theme-options.php:229
+#@ magazine-basic
+msgid "Display Comment Count on inner pages"
+msgstr ""
+
+#: library/theme-options.php:236
+#@ magazine-basic
+msgid "Front Page"
+msgstr ""
+
+#: library/theme-options.php:247
+#@ magazine-basic
+msgid "Post Content Display"
+msgstr ""
+
+#: library/theme-options.php:252
+#@ magazine-basic
+msgid "Teaser Excerpt"
+msgstr ""
+
+#: library/theme-options.php:253
+#@ magazine-basic
+msgid "Full Content"
+msgstr ""
+
+#: library/theme-options.php:265
+#@ magazine-basic
+msgid "Grid Layout"
+msgstr ""
+
+#: library/theme-options.php:270
+#@ magazine-basic
+msgid "Single"
+msgstr ""
+
+#: library/theme-options.php:271
+#@ magazine-basic
+msgid "Single - Two Columns"
+msgstr ""
+
+#: library/theme-options.php:272
+#@ magazine-basic
+msgid "Single - Two Columns - Three Columns"
+msgstr ""
+
+#: library/theme-options.php:273
+#@ magazine-basic
+msgid "Single - Three Columns"
+msgstr ""
+
+#: library/theme-options.php:286
+#: library/widgets/widget_feature.php:54
+#@ magazine-basic
+msgid "Number of Posts"
+msgstr ""
+
+#: library/theme-options.php:299
+#@ magazine-basic
+msgid "Display Categories"
+msgstr ""
+
+#: library/theme-options.php:313
+#@ magazine-basic
+msgid "Display Author"
+msgstr ""
+
+#: library/theme-options.php:327
+#@ magazine-basic
+msgid "Display Date"
+msgstr ""
+
+#: library/theme-options.php:341
+#@ magazine-basic
+msgid "Display Comment Count"
+msgstr ""
+
+#: library/theme-options.php:356
+#@ magazine-basic
+msgid "1 Column Image Width (pixels)"
+msgstr ""
+
+#: library/theme-options.php:370
+#@ magazine-basic
+msgid "2 Column Image Width (pixels)"
+msgstr ""
+
+#: library/theme-options.php:384
+#@ magazine-basic
+msgid "3 Column Image Width (pixels)"
+msgstr ""
+
+#: library/theme-options.php:398
+#@ magazine-basic
+msgid "Page Background"
+msgstr ""
+
+#: library/theme-options.php:411
+#@ magazine-basic
+msgid "Link Color"
+msgstr ""
+
+#: library/theme-options.php:464
+#@ magazine-basic
+msgid "Upgrade to a Premium Theme"
+msgstr ""
+
+#: library/theme-options.php:468
+#, php-format
+#@ magazine-basic
+msgid "All of our %s offer more control over layout &amp; design options, font &amp; color selectors, a Custom CSS editor and more!"
+msgstr ""
+
+#: library/theme-options.php:476
+#@ magazine-basic
+msgid "View all of our Premium Themes &rarr;"
+msgstr ""
+
+#: library/widgets/widget_feature.php:9
+#@ magazine-basic
+msgid "Display featured posts from a category"
+msgstr ""
+
+#: library/widgets/widget_feature.php:10
+#@ magazine-basic
+msgid "MB - Featured Posts"
+msgstr ""
+
+#: library/widgets/widget_feature.php:52
+#@ magazine-basic
+msgid "Title"
+msgstr ""
+
+#: library/widgets/widget_feature.php:53
+#@ magazine-basic
+msgid "Category"
+msgstr ""
+
